@@ -1,0 +1,164 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/*  container style start  */
+
+
+.container
+{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  section style start  */
+
+
+.section
+{
+    border: 1px solid rgb(175, 171, 171);
+    width: 95%;
+    height: 90%;
+    background-color: #f9f4ee;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*  nav style start  */
+
+
+.nav
+{
+    //border: 1px solid black;
+    width: 52%;
+    height: 70px;
+    margin: 10px 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbox
+{
+    //border: 1px solid black;
+    width: 33.3%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.navbox:hover
+{
+    transform: translateX(15px);
+}
+.navbox span
+{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #291a51;
+}
+.circle
+{
+    color: rgb(196, 19, 19);
+}
+
+/*  nav style end  */
+
+/*  bannersection style start  */
+
+
+.bannersection
+{
+    //border: 1px solid black;
+    width: 52%;
+    height: 66%;
+    margin: 110px 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.handiconsection
+{
+    //border: 1px solid black;
+    width: 70%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.handiconsection span
+{
+    margin-left: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #291a51;
+}
+
+.hand
+{
+    color: rgb(243, 243, 38);
+}
+.bannersection h1
+{
+    font-size: 55px;
+    font-family: 'Patrick Hand', cursive;
+    line-height: 49px;
+    letter-spacing: 1.5px;
+    word-spacing: 6px;
+    font-weight: 900;
+    color: #291a51;
+}
+.bannersection span1
+{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.bannersection p
+{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #291a51;
+    font-weight: 500;
+}
+.bannerimage
+{
+    width: 45%;
+    height: 730px;
+    border-bottom-left-radius: 55%;
+    position: absolute;
+    right: -120px;
+    top: -30px;
+}
+.bannerimage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 55%;
+}
+
+/*  bannersection stye lend  */
+
+/*  section style end  */
+
+/*  container style end */
